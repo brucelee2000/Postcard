@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // Add comments to test github
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
         
